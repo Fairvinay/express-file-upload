@@ -1,0 +1,39 @@
+//var child = exec('\"C:/Program Files/ImageMagick-7.1.0-Q16-HDRI/magick.exe\" ' + fileToResize + " "+param+" "+resizedFile );
+	//var user = execSync('C:\Program Files\ImageMagick-7.1.0-Q16-HDRI\magick.exe ' + fileToResize + " "+param+" "+resizedFile);	
+	let result = "";
+	child.stdout.on('data', function(data) {
+    		result += data;
+	});
+
+	 child.on('close', function() {
+   		 console.log('done');
+    		// console.log(result);
+		
+	}); 
+	//console.log(user);
+
+// working 
+const output = await reduceImageProcess (__basedir + "\\scale.bat", [ "-source",
+   				 fileToResize ,
+				"-target",
+    				resizedFile, "-max-height",  "620","-max-width", "826","-keep-ratio","yes","-force","yes"
+   					
+ 			 ]);	//"-max-height",  "720","-max-width", "926","-keep-ratio","yes","-force","yes"
+
+
+ try {
+                                    JSONObject scanObject = new JSONObject(jsonStr);
+                                    // = mainObject.getJSONObject("university");
+                                    String message = scanObject.getString("message");
+                                    String scanText = scanObject.getString("scanText");
+                                    resTEx = scanText;
+                                }catch(Exception ex){
+                                    Dlog.d("Success", "wrong json string " );
+                                }
+
+ await reduceImageProcess ("magick", [  
+   				 fileToResize ,
+				param,
+    				resizedFile
+   					
+ 			 ]);	

@@ -1,0 +1,7 @@
+Consulting - DCM - AMC - HCL Commerce - Senior Consultant/Manager (55358)
+
+"C:/Program Files/ImageMagick-7.1.0-Q16-HDRI/magick.exe" G:\jee-neonvinay\eclipseox\workspace\express-file-upload/resources/static/assets/uploads/picne.jpg -resize 20% G:\jee-neonvinay\eclipseox\workspace\express-file-upload/resources/static/assets/uploads/picne2024-01-15_11_52_52.jpg
+
+"C:/Program Files/ImageMagick-7.1.0-Q16-HDRI/magick.exe" G:\jee-neonvinay\eclipseox\workspace\express-file-upload/resources/static/assets/uploads/picne.jpg -resize 20% G:\jee-neonvinay\eclipseox\workspace\express-file-upload/resources/static/assets/uploads/picne_2024-01-15_12_6_56.jpg
+
+"C:/Program Files/ImageMagick-7.1.0-Q16-HDRI/magick.exe" G:\jee-neonvinay\eclipseox\workspace\express-file-upload/resources/static/assets/uploads/picne.jpg -resize 50% G:\jee-neonvinay\eclipseox\workspace\express-file-upload/resources/static/assets/uploads/picne_15_Jan.jpg
